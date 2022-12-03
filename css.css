@@ -36,7 +36,7 @@ nav {
 #facebook {
     color: #ffffff;
 }
-#messenger_icon,#notifications_icon,#user_icon{
+.icons_fb{
     background-color: #3a3b3c;
     padding-left: 15px;
     padding-right: 15px;
@@ -44,3 +44,20 @@ nav {
     padding-bottom: 25px;
     border-radius: 100%;
 }
+.icons_fb:hover,#search_input:hover{
+    background-color: #4e4e4f;
+}
+.hoverDiv:hover{
+    background-color: #2f3031;
+}
+
+
+
+
+/* para sa scroll sa kaliwang container ng facebook */
+/* #rightContainer::-webkit-scrollbar-track{
+    background-color: red;
+}
+#rightContainer::-webkit-scrollbar-thumb{
+    background-color: blue;
+} */
